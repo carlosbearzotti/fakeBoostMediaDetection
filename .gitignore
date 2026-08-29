@@ -1,0 +1,45 @@
+# Arquivos de ambiente e credenciais
+.env
+.env.local
+.env.*
+como.usar.txt
+context.txt
+
+# Python cache e bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Modelos treinados e serializações pesadas
+*.joblib
+*.pkl
+*.pt
+*.pth
+
+# Repositórios externos / Submódulos de Pesquisa ML
+dgl/
+sagemaker-graph-fraud-detection/
+
+# Dossiês, bancos de dados e relatórios gerados
+dossies/cache/
+dossies/**/*.html
+dossies/**/*.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.agents/
